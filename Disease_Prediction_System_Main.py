@@ -14,6 +14,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 from streamlit_option_menu import option_menu
+import uuid
+
 
  
 
@@ -283,7 +285,7 @@ def main():
         with tab1:
             st.title('Diabetes Prediction')
 
-            name = st.text_input('Enter Your Name', key=str(st.session_state.get("name_key", 0)))
+            name = st.text_input("Enter Your Name", key=str(uuid.uuid4()))
             email = st.text_input('Enter Your Email')
 
             if not name or not email:
