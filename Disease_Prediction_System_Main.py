@@ -272,7 +272,7 @@ def main():
         st.markdown(
         """
         📩 **Email:** [uzerkanza05@gmail.com](mailto:uzerkanza05@gmail.com)  
-        🌐 **webpapp_url:** https://dieseasewebapp.streamlit.app/  
+        🌐 **webpapp_url:** https://dpswebapp-by-uzair.streamlit.app/  
         """
     )
 
