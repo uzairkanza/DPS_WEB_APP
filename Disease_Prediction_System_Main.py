@@ -51,7 +51,7 @@ def send_thank_you_email(name, email, diagnosis):
     sender_email = "uzerkanza05@gmail.com"  
     sender_password = "snsf tlna hihm yhsn"  
 
-    webpapp_url = "https://dieseasewebapp.streamlit.app/"
+    webpapp_url = "https://dpswebapp-by-uzair.streamlit.app/"
     
     banner = """<!-- Insert the banner image -->
     <img src="{}" alt="Banner Image" style="max-width: 100%; height: auto; margin-top: 20px;">
@@ -150,7 +150,7 @@ def send_thank_you_email_to_heart(name, email, diagnosis):
     sender_email = "uzerkanza05@gmail.com"  
     sender_password = "snsf tlna hihm yhsn"  
 
-    webpapp_url = "https://dieseasewebapp.streamlit.app/"
+    webpapp_url = "https://dpswebapp-by-uzair.streamlit.app/"
     
     banner = """<!-- Insert the banner image -->
 <img src="{}" alt="Banner Image" style="max-width: 100%; height: auto; margin-top: 20px;">
