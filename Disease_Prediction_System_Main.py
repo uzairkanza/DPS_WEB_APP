@@ -283,7 +283,7 @@ def main():
         with tab1:
             st.title('Diabetes Prediction')
 
-            name = st.text_input('Enter Your Name')
+            name = st.text_input('Enter Your Name', key=str(st.session_state.get("name_key", 0)))
             email = st.text_input('Enter Your Email')
 
             if not name or not email:
