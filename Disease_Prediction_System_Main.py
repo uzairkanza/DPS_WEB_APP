@@ -478,7 +478,7 @@ def main():
 
                 age = st.slider('Choose your age', 1, 100)
                 sex = st.slider('Gender (0 = Female, 1 = Male)', 0, 1)
-                cp = st.slider('Chest Pain Type', 1, 3)
+                cp = st.slider('Chest Pain Type', 0, 3)
                 trestbps = st.slider('Resting Blood Pressure', 94, 200)
                 chol = st.slider('Cholesterol', 126, 576)
                 fbs = st.slider('Fasting Blood Sugar (1 = True, 0 = False)', 0, 1)
